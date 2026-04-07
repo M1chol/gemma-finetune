@@ -1,5 +1,5 @@
 from trl import SFTConfig, SFTTrainer
-from test_dataset import *
+from dataset import *
 
 input_model_path = "./models/functiongemma-270m-it/"
 output_model_path = "./models/functiongemma-270m-it-example-tune"

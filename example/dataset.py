@@ -87,4 +87,4 @@ if __name__ == "__main__":
     print("\n--- FORMATED DATESET MESSAGE ---")
     debug_message = tokenizer.apply_chat_template(dataset["train"][0]["messages"], tools=dataset["train"][0]["tools"], add_generation_prompt=False, tokenize=False)
     print(debug_message)
-    print("\n\nBase model achieved success rate of", check_success_rate())
+    print("\n\nBase model achieved success rate of", check_success_rate(model))
